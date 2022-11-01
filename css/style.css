@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* common */
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    font-family: sans-serif;
+}
+h2{
+    text-transform: capitalize;
+    font-weight: 800;
+}
+/* body */
+/* first content  */
+body{
+    background-color: #928cff;
+    font-family: sans-serif;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.add-div{
+    height: 150px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.add-div .data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+.add-div .data input{
+    outline: 0;
+    border: 1px solid #928cff;
+    height:25px;
+    padding: 7px;
+}
+.add-div .data button{
+    height: 22px;
+    background-color: #928cff;
+    text-transform: capitalize;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+}
+/* second conent */
+.boxs{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    align-items: flex-start;
+}
+.box{
+    padding: 15px;
+    background-color: #fff;
+    width: 30%;
+    border-radius: 10px;
+}
+.box h2{
+    text-align: center;
+    text-transform: lowercase;
+}
+.box p{
+    margin-bottom: 3px;
+    height: 35px;
+    background-color: #928cff;
+    color: #fff;
+    padding: 8px;
+    cursor: move ;
+}
+
+
+
+/* media qeury  */
+@media screen  and (max-width:530px){
+    .boxs{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 110px;
+    }
+    .box{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
